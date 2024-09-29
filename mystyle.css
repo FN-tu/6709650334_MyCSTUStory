@@ -27,7 +27,7 @@ header h1 {
 header p {
     font-size: 1.2em;
     margin: 5px 0;
-    z-index: -100;
+    z-index: -1;
 }
 
 /* Navigation Styles */
@@ -82,9 +82,6 @@ footer{
     position: relative;
     top: 20px;
     z-index: 5;
-    
-}
-footer p {
     text-align: right;
     background-color: #ffca1b
 }
@@ -103,10 +100,11 @@ footer p {
     overflow: hidden;
 }
 
-h1{
+h1,p{
     transform: rotate(-5deg);
 }
-.block1 {
+/*************************home*****************/
+.Hblock1 {
     border: 1px;
     border-style: solid;
     background-color: #eeeeee;
@@ -119,7 +117,7 @@ h1{
     top: 50px;
     z-index: -100;
   }
-  .block2 {
+  .Hblock2 {
     border: 1px;
     border-style: solid;
     background-color: #eeeeee;
@@ -132,7 +130,7 @@ h1{
     top: 300px;
     z-index: -100;
   }
-  .block3 {
+  .Hblock3 {
     border: 1px;
     border-style: solid;
     background-color: #eeeeee;
@@ -146,28 +144,28 @@ h1{
     z-index: -100;
     
   }
-  .miniblock1 {
+  .Hminiblock1 {
     border: 1px;
     border-style: solid ;
     width: 230px;
     background-color: rgb(172, 216, 211);
     z-index: -100;
   }
-  .miniblock2 {
+  .Hminiblock2 {
     border: 1px;
     border-style: solid ;
     width: 230px;
     background-color: rgb(137, 215, 137);
     z-index: -100;
   }
-  .miniblock3 {
+  .Hminiblock3 {
     border: 1px;
     border-style: solid ;
     width: 230px;
     background-color: rgb(249, 179, 245);
     z-index: -100;
   }
-  .video{
+  .Hvideo{
     position: relative;
     left:600px;
     top: 20px;
@@ -176,7 +174,7 @@ h1{
     
   }
   
-  .video2{
+  .Hvideo2{
     border: 1px;
     border-style: solid;
     background-color: #eeeeee;
@@ -189,7 +187,7 @@ h1{
     top: 500px;
     z-index: -100;
   }
-  .image{
+  .Himage{
     border: 1px;
     border-style: solid;
     background-color: #eeeeee;
@@ -202,6 +200,105 @@ h1{
     top: 225px;
     z-index: -100;
   }
+  /*************************home*****************/
+  /*************************journey*****************/
+.jblock1 {
+  border: 1px;
+  border-style: solid;
+  background-color: #eeeeee;
+  height: 200px;
+  width: 250px;
+  transform: rotate(-10deg);
+  text-align: center;
+  position: absolute;
+  left:200px;
+  top: 50px;
+  z-index: -100;
+}
+.jblock2 {
+  border: 1px;
+  border-style: solid;
+  background-color: #eeeeee;
+  height: 200px;
+  width: 250px;
+  transform: rotate(-10deg);
+  text-align: center;
+  position: absolute;
+  left:500px;
+  top: 300px;
+  z-index: -100;
+}
+.jblock3 {
+  border: 1px;
+  border-style: solid;
+  background-color: #eeeeee;
+  height: 200px;
+  width: 250px;
+  transform: rotate(-10deg);
+  text-align: center;
+  position: absolute;
+  left:40px;
+  top: 500px;
+  z-index: -100;
+  
+}
+.jminiblock1 {
+  border: 1px;
+  border-style: solid ;
+  width: 230px;
+  background-color: rgb(172, 216, 211);
+  z-index: -100;
+}
+.jminiblock2 {
+  border: 1px;
+  border-style: solid ;
+  width: 230px;
+  background-color: rgb(137, 215, 137);
+  z-index: -100;
+}
+.jminiblock3 {
+  border: 1px;
+  border-style: solid ;
+  width: 230px;
+  background-color: rgb(249, 179, 245);
+  z-index: -100;
+}
+.jvideo{
+  position: relative;
+  left:600px;
+  top: 20px;
+  z-index: 10;
+  pointer-events: auto;
+  
+}
+
+.jvideo2{
+  border: 1px;
+  border-style: solid;
+  background-color: #eeeeee;
+  height: 260px;
+  width: 250px;
+  transform: rotate(0deg);
+  text-align: center;
+  position: absolute;
+  left:500px;
+  top: 500px;
+  z-index: -100;
+}
+.jimage{
+  border: 1px;
+  border-style: solid;
+  background-color: #eeeeee;
+  height: 250px;
+  width: 400px;
+  transform: rotate(10deg);
+  text-align: center;
+  position: absolute;
+  left:40px;
+  top: 225px;
+  z-index: -100;
+}
+/*************************journey*****************/
   img {
     display: block;
     width: 400px;
